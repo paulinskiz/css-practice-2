@@ -67,6 +67,8 @@ body {
     width: 92%;
     font-size: 17px;
     color: white;
+    outline: 0;
+    border: 0;
 }
 
 ::placeholder {

@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 10px solid black;
+    background-image: url("../img/plane.jpeg");
+    background-size: 100%;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #548bf2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.formBG {
+    width: 500px;
+    /* height: 500px; */
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    width: 35%;
+    margin-top: 10px;
+}
+input {
+    width: 65%;
+    margin-top: 10px;
+}
+
+.date {
+    width: 28%;
+    margin-right: 18px;
+    margin-top: 10px;
+}
+
+.time {
+    width: 11%;
+    margin-top: 10px;
+}
+
+.textArea {
+    height: 70px;
+    margin-top: 10px;
+}
+
+.type {
+    width: 30%;
+    margin-top: 10px;
+}
+
+span {
+    width: 50%;
+    margin-top: 10px;
+}
+
+select {
+    margin-top: 10px;
+}
+
+.submitContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.submit {
+    width: 100px;
+    height: 30px;
+    background-color: #548bf2;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: #feea05;
+}
+
+textarea {
+    height: 70px;
+    width: 65%;
+    margin-top: 10px;
+}
